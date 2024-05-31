@@ -42,10 +42,10 @@ devDependencies:
     version: 8.4.33
   prettier:
     specifier: ^3.0.2
-    version: 3.0.2
+    version: 3.2.5
   prettier-plugin-tailwindcss:
     specifier: ^0.6.0
-    version: 0.6.0(prettier@3.0.2)
+    version: 0.6.0(prettier@3.2.5)
   tailwind-merge:
     specifier: ^2.0.0
     version: 2.0.0
@@ -2163,7 +2163,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss@0.6.0(prettier@3.0.2):
+  /prettier-plugin-tailwindcss@0.6.0(prettier@3.2.5):
     resolution: {integrity: sha512-l5F3iG54XbOq/2DOPP/YA+c6VE3/qXrcBccntq2v7PSxtEc+J6SwsuTyDHxoFK1+jAlcU/hECBfzn6MON6ENBg==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -2215,11 +2215,11 @@ packages:
       prettier-plugin-svelte:
         optional: true
     dependencies:
-      prettier: 3.0.2
+      prettier: 3.2.5
     dev: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
